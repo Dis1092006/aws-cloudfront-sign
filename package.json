@@ -1,8 +1,11 @@
 {
-  "name": "aws-cloudfront-sign",
-  "version": "2.2.0",
+  "name": "aws-cloudfront-sign-node_0.8",
+  "version": "2.2.1",
   "description": "Utility module for signing AWS CloudFront URLs",
-  "author": "Jason Sims <sims.jrobert@gmail.com>",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "author": "Jason Sims <sims.jrobert@gmail.com>, Dmitry Samsonov <dis1092006@gmail.com>, Alexander Maximov <mamakc61@gmail.com>",
   "contributors": [
     {
       "name": "Matt Palmerlee"
@@ -14,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasonsims/aws-cloudfront-sign.git"
+    "url": "https://github.com/Dis1092006/aws-cloudfront-sign-node_0.8.git"
   },
   "keywords": [
     "aws",
@@ -22,9 +25,6 @@
     "signed URL"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jasonsims/aws-cloudfront-sign/issues"
-  },
   "dependencies": {
     "lodash": "^3.6.0"
   },
