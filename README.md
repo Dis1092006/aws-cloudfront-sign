@@ -1,13 +1,10 @@
-AWS CloudFront URL Signature Utility  
-===================
-[![Build Status](https://travis-ci.org/jasonsims/aws-cloudfront-sign.svg?branch=master)](https://travis-ci.org/jasonsims/aws-cloudfront-sign)
-[![npm version](https://badge.fury.io/js/aws-cloudfront-sign.svg)](http://badge.fury.io/js/aws-cloudfront-sign)
-
-Generating signed URLs for CloudFront links is a little more tricky than for S3. It's because signature generation for S3 URLs is handled a bit differently than CloudFront URLs and this functionality is not currently supported by the [aws-sdk](https://github.com/aws/aws-sdk-js) library for JavaScript. In case you also need to do this, I've created this simple utility to make things easier.
+##About this fork
+This repository is a fork of [this repo](https://github.com/jasonsims/aws-cloudfront-sign).
+I decided to fork that because I needed use of the module under Node.js 0.8.
 
 ## Usage
 ### Requirements
-* Node.js >=0.10.0
+* Node.js >=0.8.0
 * Active CloudFront distribution with origin configured
 
 ### Configuring CloudFront
@@ -21,12 +18,8 @@ Generating signed URLs for CloudFront links is a little more tricky than for S3.
 
 ### Installing
 ```sh
-npm install aws-cloudfront-sign
+npm install aws-cloudfront-sign-node_0.8
 ```
-
-### Upgrading from 1.x to 2.x
-* `expireTime` now takes it's value as milliseconds, Date, or
- [moment][moment_docs] instead of seconds.
 
 ### API
 #### getSignedUrl(url, options)
