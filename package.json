@@ -1,5 +1,5 @@
 {
-  "name": "aws-cloudfront-sign-node_0.8",
+  "name": "aws-cloudfront-sign-node-0_8",
   "version": "2.2.1",
   "description": "Utility module for signing AWS CloudFront URLs",
   "engines": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dis1092006/aws-cloudfront-sign-node_0.8.git"
+    "url": "https://github.com/Dis1092006/aws-cloudfront-sign-node-0_8.git"
   },
   "keywords": [
     "aws",

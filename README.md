@@ -1,4 +1,4 @@
-##About this fork
+## About this fork
 This repository is a fork of [this repo](https://github.com/jasonsims/aws-cloudfront-sign).
 I decided to fork that because I needed use of the module under Node.js 0.8.
 
